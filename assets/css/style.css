@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tit{
+    font-family: "Fjalla One", sans-serif;
+    font-size: 30px;
+    color: #000000;
+  
+}
+.card{
+  width: 30%;
+  height: 30%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+     font-family: "Fjalla One", sans-serif;
+        font-size: 100%;
+    color: #000000;
+}
+
+.cards{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+}
