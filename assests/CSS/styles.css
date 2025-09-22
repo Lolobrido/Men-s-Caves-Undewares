@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(255, 244, 230);
+}
+
+.header {
+    font-family: fantasy;
+    font-size: 40px;
+    background-color: rgb(241, 247, 129);
+    border-radius: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+img {
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.card1 {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: cursive;
+     font-size: 20px;
+}
+
+.card2 {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: cursive;
+     font-size: 20px;
+}
+
+.card3 {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: cursive;
+     font-size: 20px;
+}
